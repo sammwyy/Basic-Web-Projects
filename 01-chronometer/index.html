@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 - Chronometer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <h1>Chronometer</h1>
+            <p>A stopwatch is a watch whose function is to measure the time elapsed since it is activated.</p>
+
+            <div class="controls">
+                <button class="btn btn-primary" onclick="togglePause();">Pause/Start</button>
+                <button class="btn btn-danger" onclick="reset();">Reset</button>
+            </div>
+        
+            <div class="chronometer">
+                <span id="time-hours">00</span>h
+                
+                <span id="time-minutes">00</span>m
+                
+                <span id="time-seconds">00</span>s
+
+                (<span id="time-centiseconds">00</span>)
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
