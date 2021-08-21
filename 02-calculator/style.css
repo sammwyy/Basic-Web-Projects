@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  padding: 30px 0;
+}
+
+.center {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.controls {
+  margin: 40px auto;
+  width: 340px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-warning {
+  background-color: orange;
+  color: white;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-big {
+  width: 150px;
+}
