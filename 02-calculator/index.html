@@ -16,14 +16,20 @@
           easily.
         </p>
 
+        <div id="equationContainer"></div>
+
         <div class="controls">
-          <button class="btn btn-big btn-warning">Back</button>
-          <button class="btn btn-big btn-danger">Clear</button>
+          <button onclick="goBack();" class="btn btn-big btn-warning">
+            Back
+          </button>
+          <button onclick="clearInput();" class="btn btn-big btn-danger">
+            Clear
+          </button>
           <button calcButton class="btn">7</button>
           <button calcButton class="btn">8</button>
           <button calcButton class="btn">9</button>
-          <button calcButton class="btn">X²</button>
-          <button calcButton class="btn">%</button>
+          <button calcButton class="btn">(</button>
+          <button calcButton class="btn">)</button>
           <button calcButton class="btn">4</button>
           <button calcButton class="btn">5</button>
           <button calcButton class="btn">6</button>
@@ -35,7 +41,9 @@
           <button calcButton class="btn">-</button>
           <button calcButton class="btn">+</button>
           <button calcButton class="btn btn-big">0</button>
-          <button class="btn btn-big btn-success">Calculate</button>
+          <button onclick="calculate();" class="btn btn-big btn-success">
+            Calculate
+          </button>
         </div>
       </div>
     </div>

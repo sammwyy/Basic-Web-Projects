@@ -55,3 +55,8 @@ h1 {
 .btn-big {
   width: 150px;
 }
+
+#equationContainer {
+  font-size: 25px;
+  color: #333;
+}
